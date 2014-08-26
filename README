@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project is a port of python 2.7 for the Marmalade SDK (tested, version 7.3). 
 
 fork of:
@@ -5,3 +6,15 @@ https://github.com/guyburton/python-loves-marmalade
 
 - I've embedded socket support
 
+=======
+This project is a port of Python 2.7 for the Marmalade SDK ( tested version 7.3 )
+
+- Full bindings to _sockets module
+- OpenSSL support, see patch (mkb &  version.c)
+- Created a new c module that transparently connects marmalade random functions to python random module ( see s3eRandomMod ) removing /dev/urandom dependancy
+
+This is a code dumping ground right now (aug 25,2014), 
+- compiled libraries work
+
+- Don't bother trying to compile this yet, half the code isnt uploaded.
+>>>>>>> origin/master
