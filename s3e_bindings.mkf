@@ -1,0 +1,17 @@
+
+command "./make_bindings.py s3e"
+
+files
+{
+    ["s3e wrapper"]
+    (modified)
+    s3e_wrap.c
+
+    (.)
+    s3e_bindings.defines.txt
+}
+
+defines
+{
+    #SWIGRUNTIME_DEBUG
+}

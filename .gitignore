@@ -1,0 +1,15 @@
+*.pyc
+.DS_Store
+iwtrace.txt
+build_*
+*_wrap.c
+development.icf
+run_*.py
+data/lib
+data/include
+Python-2.7.1.tar.bz2
+examples/*/data/include/
+examples/*/data/lib/
+
+
+upstream

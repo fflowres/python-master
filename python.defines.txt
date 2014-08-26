@@ -1,0 +1,2 @@
+__rtems__ XX
+PYTHON_VERBOSE "Whether or not to put python into verbose mode (debug)"
